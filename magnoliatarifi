@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Tarifi..</title>
+    <style>
+        #sayfa{
+            background-color: chocolate;
+            color: black;
+            border-style:solid
+            
+        }
+        #ilk-liste{
+            font-size: 25px;
+            margin-left: 150PX;
+        }
+        #ikinci-liste{
+            font-size: 25px;
+            margin-left: 150px;
+        }
+        #baslik{
+            margin-left: 150px;
+        }
+        #ikinci-baslik{
+            margin-left: 150px;
+        }
+        #ucuncu-baslik{
+            margin-left: 150px;
+        }
+        #son-baslik{
+            margin-left: 150px;
+        }
+        #paragraf{
+            margin-left: 150px;
+        }
+        #resim{
+            border: solid;
+            margin-left: 150px;
+        }
+    </style>
+    
+</head>
+    <body id="sayfa">
+            <h1 id="baslik">
+                <!-- tarifle ilgili tarihce -->
+            <i>Tarifin Hikayesi</i> 
+            </h1>
+            <hr>
+                <p id="paragraf">Magnolia tarifi arayanlar için enfes bir önerimiz var. <br> <b>Ünü New York</b>  pastanelerinden dünyaya yayıldıktan sonra, <br> özellikle günümüzde popülerliği artan bu tatlıya, <br> ülkemizde oldukça fazla ilgi gösteriliyor. <br> Yapımında <i> un, bebe bisküvisi, krema ve meyve</i> kullanılıyor. <br> Bu tarifin birbirinden farklı malzemeleri kullanarak yapılan çeşitleri bulunuyor. <br> <u>Peki çilekli magnolia  tarifi nedir?</u>  <br> Magnolia nasıl yapılır? Listemizde verilen malzemeleri hazırladıysanız, <br> tarifin detaylarına geçebilirsiniz.
+                </p>
+            <hr>
+            <!-- malzeme listesi -->
+            <h2 id="ikinci-baslik">
+            <i>Magnolia Tarifi İçin Malzemeler</i>
+            </h2>
+            <hr>
+        <div id="ilk-liste">
+            <ul>
+                <li>5 su bardağı süt.</li>
+                <li>4 yemek kaşığı un</li>
+                <li>100 ml krema (yarım kutu)</li>
+                <li>3/4 (bir yarım+bir çeyrek) su bardağı şeker</li>
+                <li>Vanilya</li>
+                <li>1 yumurta</li>
+                <li>1 paket bebe bisküvisi (yulaflı diğer bisküviler de tercih edilebilir)</li>
+                <li>1 su bardağı fındık</li>
+            </ul>
+        </div>
+            <hr>
+            <!-- tarifin uygulanısı -->
+            <h2 id="ucuncu-baslik">
+           <i>Magnolia Tarifi Nasıl Yapılır?</i>
+            </h2>
+            <hr>
+        <div id="ikinci-liste">
+            <ol>
+                <li>Uygun bir tencereye 1 litre sütü alın.</li>
+                <li>Sütü, yumurtayı, kremayı, unu, şekeri karıştırarak pişirin.</li>
+                <li>Muhallebi kıvamına gelip, göz göz olana kadar karıştırın.</li>
+                <li>Koyu kıvam aldığında, içine vanilyayı da ekleyerek altını kapatın.</li>
+                <li>Bebe bisküvilerinizi rondodan geçirin.</li>
+                <li>Fındıkları da rondodan geçirip, bebe bisküvilerinin içine karıştırın.</li>
+                <li>Kuplara bisküvi fındık karışımınızdan, muhallebinizden ve meyvelerden koyun. <br> Sıralaması, miktarları tamamen sizin zevkinize kalmış.</li>
+                <li>Magnolianın bu sunumu için; ben karadut, çilek ve fındık kullandım.</li>
+            </ol>
+        </div>
+        <!-- ilgili resim ve videolar -->
+            <hr>
+            <img id="resim" src="https://i.nefisyemektarifleri.com/2014/05/magnolia-yapilisi-foto-1.jpg" alt="Magnolia" width="400px" height="300">
+
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/7jCIY4ylWr4" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        <footer>
+                <sayfa sonu!--  -->
+            <h3 id="son-baslik">
+           <i>Afiyet Olsun...</i>
+            </h3>
+        </footer>
+    </body>
+</html>
